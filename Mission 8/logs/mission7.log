@@ -1,0 +1,29 @@
+2020-03-31 18:19:42,629 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-03-31 18:19:45,475 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [main] Located environment: name=application, profiles=[default], label=null, version=6f346b5770f1d9635003255aba090dd1046a69f3, state=null
+2020-03-31 18:19:45,476 INFO o.s.c.b.c.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2020-03-31 18:19:47,445 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-31 18:19:47,448 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-03-31 18:19:47,484 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30ms. Found 0 JDBC repository interfaces.
+2020-03-31 18:19:47,497 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-31 18:19:47,497 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-31 18:19:47,510 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2020-03-31 18:19:47,871 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=dc34d929-1aca-3569-9897-e2977c818f74
+2020-03-31 18:19:49,114 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-31 18:19:49,135 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-31 18:19:49,137 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-31 18:19:49,139 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 18:19:49,640 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-31 18:19:49,640 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4068 ms
+2020-03-31 18:19:53,205 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-31 18:19:54,011 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-31 18:19:54,096 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-31 18:19:54,234 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-31 18:19:54,543 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-31 18:19:54,775 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-31 18:19:55,113 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-31 18:19:55,125 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-31 18:19:55,770 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-31 18:19:55,971 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 18:19:58,080 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-03-31 18:19:58,251 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-31 18:19:58,277 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
