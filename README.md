@@ -8,4 +8,5 @@
   <li>Mission 5 completed on 27/3/2020</li>
   <li>Mission 6 completed on 28/3/2020</li>
   <li>Mission 7 completed on 29/3/2020</li>
+  <li>Mission 8 completed on 31/3/2020</li>
 </ul>
