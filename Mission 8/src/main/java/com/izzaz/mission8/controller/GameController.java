@@ -21,11 +21,12 @@ public class GameController {
     @Autowired
     private GameService gameService;
 
-    @Value("${spring.profile.active.message}")
+    @Value("${spring.profiles.active.message}")
     private String message;
 
     @RequestMapping("/hello")
-    String sayHello(){
+    @ResponseBody
+    public String sayHello(){
         return message;
     };
 
