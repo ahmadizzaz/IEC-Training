@@ -10,4 +10,4 @@
   <li>Mission 7 completed on 29/3/2020</li>
   <li>Mission 8 completed on 31/3/2020</li>
 </ul>
-<img src="https://cdn.pixabay.com/photo/2016/10/18/19/04/floral-1751088_960_720.png" alt="Theres supposed to be a line here">
+<img src="https://i.ya-webdesign.com/images/horizontal-clipart-transparent-background-2.gif" alt="Theres supposed to be a line here">
